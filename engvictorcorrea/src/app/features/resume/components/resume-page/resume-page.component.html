@@ -1,0 +1,18 @@
+<div class="resume-container">   
+    <div class="container">
+        <app-header [me]="dataFile?.me ?? null">              
+        </app-header>
+        <div class="row">
+            <app-summary [summary]="dataFile?.summary ?? null">
+            </app-summary>
+            <app-experience [experience]="dataFile?.experience ?? null">                
+            </app-experience>     
+            <app-education [education]="dataFile?.education ?? null">                
+            </app-education>   
+            <app-skills [skills]="dataFile?.skills ?? null">                
+            </app-skills>
+            <app-languages [languages]="dataFile?.languages ?? null">                
+            </app-languages>         
+        </div>
+    </div>
+</div>

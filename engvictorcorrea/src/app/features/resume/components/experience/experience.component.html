@@ -1,0 +1,16 @@
+<section class="resume-section">
+    <app-title [title]="experience?.title ?? ''">        
+    </app-title>
+    <div *ngIf="experience">
+        <div *ngFor="let item of experience.items">
+            <h2>{{ item.position }}</h2>
+            <h3>{{ item.company }}</h3>
+            <span>{{item.start_at}} - {{item.finished_at}}</span>
+            <div *ngFor="let activity of item.activities">
+                <app-description [description]="activity ?? ''">        
+                </app-description>
+            </div>
+        </div>
+    </div>
+</section>
+
