@@ -1,27 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
 @import "bootstrap/scss/bootstrap-grid";
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
 
 .text-fill {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    text-align: justify; 
-    line-height: 1.3; 
-    word-spacing: 0.05em;
-    margin: 0; 
-    padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  line-height: 1.3;
+  word-spacing: 0.05em;
+  margin: 0;
+  padding: 0;
 }
 
 .dotted-bottom {
-    border-bottom: 2px dotted gray;
-    padding-bottom: 10px; 
+  border-bottom: 2px dotted gray;
+  padding-bottom: 10px;
 }
 
-
 :root {
-    --primary-color: #013309;
-    --secondary-color: #00c091;
+  --primary-color: #013309;
+  --secondary-color: #058b3db2;
 }

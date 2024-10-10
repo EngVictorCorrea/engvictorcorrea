@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
-import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
+import {
+  provideHttpClient,
+  withInterceptorsFromDi,
+} from '@angular/common/http';
 
 import { ResumeRoutingModule } from './resume-routing.module';
 import { ResumePageComponent } from './components/resume-page/resume-page.component';
@@ -15,12 +18,8 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { DescriptionComponent } from './components/description/description.component';
 
-
 @NgModule({
-  providers: [
-    provideHttpClient(withInterceptorsFromDi()),
-    BrowserModule,    
-  ],
+  providers: [provideHttpClient(withInterceptorsFromDi()), BrowserModule],
   declarations: [
     DescriptionComponent,
     EducationComponent,
@@ -28,14 +27,11 @@ import { DescriptionComponent } from './components/description/description.compo
     MeComponent,
     LanguagesComponent,
     LanguageLevelComponent,
-    ResumePageComponent,    
+    ResumePageComponent,
     SkillsComponent,
-    SummaryComponent,    
+    SummaryComponent,
     TitleComponent,
   ],
-  imports: [
-    CommonModule,
-    ResumeRoutingModule
-  ]
+  imports: [CommonModule, ResumeRoutingModule],
 })
-export class ResumeModule { }
+export class ResumeModule {}

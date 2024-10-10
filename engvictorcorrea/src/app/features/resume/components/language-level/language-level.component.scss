@@ -27,13 +27,17 @@
   margin-left: 15px;
 }
 
-.dot {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: #ccc;
+.dot-icon {
+  font-size: medium;
+  color: #ccc;
 }
 
-.dot.filled {
-  background-color: var(--secondary-color);
+.dot-icon.filled {
+  color: var(--secondary-color);
+}
+
+@media print {
+  .dot-icon {
+    font-size: medium;
+  }
 }

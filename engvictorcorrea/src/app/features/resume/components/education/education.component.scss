@@ -1,20 +1,22 @@
 i {
-    margin-right: 5px;
-    color: var(--secondary-color);
-    font-size: medium;
+  margin-right: 5px;
+  color: var(--secondary-color);
+  font-size: medium;
 }
 
-
-.resume-section h2 {    
-    margin-bottom: 3px;
-    font-size: medium;
-    color: var(--primary-color);
+.date {
+  font-weight: bold;
+}
+.resume-section h2 {
+  margin-bottom: 3px;
+  font-size: medium;
+  color: var(--primary-color);
 }
 
 .resume-section h3 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: small;
-    font-weight: 900;
-    color: var(--secondary-color);    
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: small;
+  font-weight: 900;
+  color: var(--secondary-color);
 }

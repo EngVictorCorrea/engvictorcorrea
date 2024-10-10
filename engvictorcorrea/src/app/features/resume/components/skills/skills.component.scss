@@ -1,7 +1,7 @@
 .skills-container {
   display: flex;
-  flex-wrap: wrap; /* Faz os itens quebrarem linha quando necessário */
-  gap: 10px; /* Espaçamento entre os itens */
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .skill-item {
@@ -13,5 +13,5 @@
 }
 
 .skills-container p {
-  margin: 0; /* Remove a margem padrão do <p> */
+  margin: 0;
 }

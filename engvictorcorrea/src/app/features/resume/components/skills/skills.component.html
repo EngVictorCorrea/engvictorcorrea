@@ -1,11 +1,8 @@
 <section class="resume-section">
-    <app-title [title]="skills?.title ?? ''">        
-    </app-title>   
-    <div *ngIf="skills?.items != null" class="skills-container">
-        <div *ngFor="let item of skills!.items" class="skill-item">
-            <p>{{item}}</p>
-        </div>
-    </div> 
+  <app-title [title]="skills?.title ?? ''"> </app-title>
+  <div *ngIf="skills?.items != null" class="skills-container">
+    <div *ngFor="let item of skills!.items" class="skill-item">
+      <p>{{ item }}</p>
+    </div>
+  </div>
 </section>
-
-
