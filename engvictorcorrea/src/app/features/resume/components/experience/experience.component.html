@@ -1,14 +1,17 @@
 <section class="resume-section">
-    <app-title [title]="experience?.title ?? ''">        
+    <app-title [title]="experience!.title" *ngIf="experience?.title">        
     </app-title>
     <div *ngIf="experience">
         <div *ngFor="let item of experience.items">
             <h2>{{ item.position }}</h2>
             <h3>{{ item.company }}</h3>
-            <span>{{item.start_at}} - {{item.finished_at}}</span>
-            <div *ngFor="let activity of item.activities">
-                <app-description [description]="activity ?? ''">        
+            <i class="bi bi-calendar"></i><span class="date">{{item.start_at}} - {{item.finished_at}}</span>
+            <div *ngFor="let activity of item.activities; let last = last;">
+                <app-description class="indented-item"
+                    [description]="activity ?? ''">        
                 </app-description>
+                <div class="dotted-bottom" *ngIf="!last"></div>
+
             </div>
         </div>
     </div>

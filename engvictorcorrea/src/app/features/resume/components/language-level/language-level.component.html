@@ -1,0 +1,11 @@
+<div class="language-level-container col-md-4">
+    <div class="language-text">
+        <h3>{{ language }}</h3>
+        <p>{{ getLevelDescription() }}</p>
+    </div>
+    <div class="dots-container">
+        <span *ngFor="let filled of getDots()" class="dot" [class.filled]="filled"></span>
+    </div>
+</div>
+
+  

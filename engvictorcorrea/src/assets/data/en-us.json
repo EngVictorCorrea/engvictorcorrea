@@ -1,0 +1,132 @@
+{
+  "me": {
+    "name": "Victor Corrêa",
+    "email": "email@gmail.com",
+    "phone": "+55 (15) 99999-7777",
+    "linkedin" : "linkedin.com/in/victor-corrêa-549424b2",
+    "titles": [
+      "Desenvolvedor Senior .Net"
+    ]
+  },
+  "summary": {
+    "title": "Resumo",
+    "description": "Com mais de 10 anos de experiência em desenvolvimento de software, iniciei minha carreira na automação, utilizando equipamentos e softwares de mercado como HBM Catman e Bosch Rexroth. Nos últimos 6 anos, foquei no desenvolvimento de aplicações web de médio e grande porte, especialmente em ambientes de nuvem do Google (GCP). Tenho experiência em liderança de equipes de 2 a 5 desenvolvedores, elaboração de fluxogramas e participação ativa em discussões sobre novas tecnologias com potencial para aplicação em projetos."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "items": [
+      {
+        "position": "Desenvolvedor Sênior .Net Referência",
+        "company": "Dotz",
+        "start_at": "06/2022",
+        "finished_at": "Presente",
+        "activities": [
+          "Planejamento e execução de uma aplicação junto com três desenvolvedores e duas outras squads para criar uma nova forma de integração com parceiros do varejo. A aplicação recebia informações de venda e permitia que os clientes realizassem a troca de pontos diretamente pelo aplicativo da empresa, com suporte para cross-sell de serviços como GDO (Garantia de Descontos Online) e solicitação de empréstimo pessoal. As decisões tomadas no aplicativo eram devolvidas ao PDV (ponto de venda) para finalizar a compra com desconto parcial ou total. A aplicação foi desenvolvida em .NET 8.0, hospedada no GCP Cloud Run, utilizando Pub/Sub para comunicação entre APIs, e integrando com PostgreSQL, Redis, e Google Cloud Storage.",
+          "Implementação de melhorias nas integrações para facilitar a troca de pontos e aumentar o engajamento dos clientes, resultando em um aumento de 300% nas trocas. As melhorias também contribuíram para elevar o NPS (Net Promoter Score), simplificando o processo de escolha dos itens e permitindo a confirmação por token via SMS ou e-mail."
+        ]
+      },
+      {
+        "position": "Desenvolvedor Sênior .Net",
+        "company": "Opah",
+        "start_at": "05/2021",
+        "finished_at": "06/2022",
+        "activities": [
+          "Desenvolvimento de uma aplicação junto a outro desenvolvedor para integrar com a API de um banco, baixar e processar dois arquivos contendo informações sobre adesão ou cancelamento de clientes do programa de fidelidade, e dados de gastos no cartão de crédito, utilizados para bonificação de pontos.",
+          "Desenvolvimento de uma aplicação para conectar-se a APIs de uma rede de hotéis, obtendo dados de conclusão de vendas para bonificar consumidores com pontos. Os serviços foram desenvolvidos em .NET Core 3.1 e hospedados em um cluster Kubernetes no GCP, utilizando recursos de Load Balancer e cron jobs para processar os dados via Pub/Sub.",
+          "Planejamento, criação de fluxogramas, documentação e execução de uma aplicação integrada aos serviços TOTVS de PDV para obter dados de compras, permitindo o acúmulo e troca de pontos diretamente no PDV. A aplicação foi desenvolvida em .NET Core 3.1 e hospedada em Kubernetes no GCP, utilizando Load Balancer para expor a API ao sistema TOTVS.",
+          "Planejamento e execução de diversas outras aplicações, como Opt-In simplificado no PDV (frente de caixa), integração com parceiros para venda de serviços de fidelidade, entre outras soluções voltadas para o varejo."
+        ]
+      },
+      {
+        "position": "Desenvolvedor Sênior .Net",
+        "company": "Cecam Consultoria",
+        "start_at": "01/2019",
+        "finished_at": "06/2021",
+        "activities": [
+          "Desenvolvimento de uma aplicação em conjunto com mais dois desenvolvedores, onde o frontend era em AngularJS e o backend em .NET Core 3.1. O módulo gerencial permitia o cadastro e a formalização legal de empresas no município, enquanto o módulo público permitia aos prestadores de serviços emitirem notas fiscais. A aplicação incluía uma API para integração de empresas de médio e grande porte, um módulo para emissão de boletos bancários, e integração com cartórios via arquivo.",
+          "Desenvolvimento de uma aplicação em conjunto com mais quatro desenvolvedores, com frontend em AngularJS e backend em .NET Core 3.1, destinada ao cadastro de imóveis e emissão de IPTU, com um módulo de cálculo configurável para cada município."
+        ]
+      },
+      {
+        "position": "Programador",
+        "company": "Realtime",
+        "start_at": "01/2014",
+        "finished_at": "01/2019",
+        "activities": [
+          "Desenvolvimento de software em C# .NET Framework com Windows Forms para bancadas de teste de qualidade de montagem de produtos como direção hidráulica, freios pneumáticos, filtros de ar e óleo, caixa de embreagem, freios a disco e tambor. O software integrava equipamentos de medição como PMX, QuantumX e Spider (HBM) para leitura de sensores, além de controlar atuadores como motores de passo, válvulas e pistões, gerenciando o processo de acionamento e medições de controle de qualidade, com salvamento de dados e emissão de relatórios.",
+          "Projetar, desenvolver e coordenar uma equipe de quatro desenvolvedores para implementar software de CLP e IHM, que se comunicavam com um servidor em .NET via protocolo OPC, utilizado em linhas de montagem de caixas de direção."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Escolaridade",
+    "items": [
+      {
+        "name": "FACENS – Faculdade de Engenharia de Sorocaba",
+        "start_at": "06/2020",
+        "finished_at": "01/2019",
+        "course": "Pós Graduação em Inteligência Artificial Aplicada"
+      },
+      {
+        "name": "FACENS – Faculdade de Engenharia de Sorocaba",
+        "start_at": "12/2013",
+        "finished_at": "01/2009",
+        "course": "Graduação em Engenharia Elétrica"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Conhecimentos",
+    "items": [
+      ".NET 6.0/8.0",      
+      ".NET Core3.1",
+      ".NET Frameworker 3.5/4.8",
+      "PostgreSQL",
+      "SQL Server",
+      "MySql",
+      "MongoDb",
+      "Azure Devops",
+      "Redis",
+      "RebitMQ",
+      "GCP",
+      "Kubernets",
+      "Docker",
+      "Pub/Sub",
+      "Cloud Run",
+      "Bucket",
+      "Git Hub",      
+      "Git Actions",
+      "Jenkins",
+      "Arquitetura limpa",
+      "CQRS",
+      "SOLID",
+      "Clean Code",
+      "Scrum",
+      "Kanban",
+      "Windows",
+      "Linux (Ubuntu/Mint)"
+    ]
+  },
+  "languages": {
+    "title": "Idiomas",
+    "levels_description": [
+      "Does not know", 
+      "Basic", 
+      "Intermediate", 
+      "Advanced", 
+      "Fluent", 
+      "Native"
+    ],
+    "items": [
+      {
+        "language": "Português",
+        "level": 5
+      },
+      {
+        "language": "Inglês",
+        "level": 2
+      }
+    ]
+  }
+}

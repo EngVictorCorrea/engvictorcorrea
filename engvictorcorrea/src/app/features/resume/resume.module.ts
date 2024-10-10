@@ -10,6 +10,7 @@ import { TitleComponent } from './components/title/title.component';
 import { SummaryComponent } from './components/summary/summary.component';
 import { EducationComponent } from './components/education/education.component';
 import { LanguagesComponent } from './components/languages/languages.component';
+import { LanguageLevelComponent } from './components/language-level/language-level.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { DescriptionComponent } from './components/description/description.component';
@@ -26,6 +27,7 @@ import { DescriptionComponent } from './components/description/description.compo
     ExperienceComponent,
     MeComponent,
     LanguagesComponent,
+    LanguageLevelComponent,
     ResumePageComponent,    
     SkillsComponent,
     SummaryComponent,    

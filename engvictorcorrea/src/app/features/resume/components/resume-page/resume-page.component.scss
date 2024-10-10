@@ -1,33 +1,64 @@
+body {
+  background:lightgray;
+  height: auto;
+}
+
+.page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+.page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+}
+
+@media print {
+  body,
+  .page {
+    margin: 0;
+    box-shadow: none;
+  }
+}
+
+/* Estilo para o container do currículo */
 .resume-container {
-    max-width: 600px;
-    margin: 0 auto;
-    margin-top: 50px;    
-    padding: 30px;
-    font-family: Arial, sans-serif;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
- 
-  .resume-section {
-    margin-bottom: 20px;
-  
-    h2 {
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 5px;
-    }
-  
-    ul {
-      list-style: none;
-      padding: 0;
-  
-      li {
-        margin: 10px 0;
-  
-        strong {
-          display: block;
-        }
-      }
-    }
-  }
-  
+  max-width: 100%;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.resume-section {
+  margin-bottom: 20px;
+}
+
+.header {
+  padding-top: 10px;
+  text-align: center;
+  border: 2px solid #ddd;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 80%;
+}
+
+table th {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

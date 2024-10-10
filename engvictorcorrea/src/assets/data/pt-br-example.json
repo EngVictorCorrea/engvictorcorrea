@@ -39,6 +39,7 @@
   },
   "skills": {
     "title": "Skills",
+    "cases": [],
     "items": [
       ".Net",
       "Angular"      

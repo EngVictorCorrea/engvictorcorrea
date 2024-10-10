@@ -1,32 +1,36 @@
-<div class="section-name col">
-    <h1>{{me?.name ?? 'name'}}</h1>
-</div>
-<div class="row align-items-start">
-    <div></div>
-</div>
-<div class="row align-items-start">    
-    <div  class="col">
-        <i class="bi bi-envelope"></i>
-        <span>
-            {{me?.email ?? 'teste'}}
-        </span>
+<div class="me-section">
+    <div class="section-name col">
+        <h1>{{me?.name ?? 'name'}}</h1>
     </div>
-    <div class="col">
-        <i class="bi bi-telephone"></i>
-        <span>
-            {{me?.email ?? 'teste'}}
-        </span>
+    <div *ngIf="me" class="titles-container">
+        <div *ngFor="let title of me.titles" class="titles-item">
+            <h2>{{title}}</h2>
+        </div>
     </div>
-    <div class="col">
-        <i class="bi bi-geo-alt"></i>
-        <span>
-            {{me?.email ?? 'teste'}}
-        </span>
-    </div>
-    <div class="col">
-        <i class="bi bi-linkedin"></i>
-        <span>
-            {{me?.email ?? 'teste'}}s        
-        </span>
+    <div class="row contact-container" *ngIf="me">
+        <div class="col-6" *ngIf="me.email">
+            <div class="d-flex align-items-center">
+                <i class="bi bi-envelope"></i>
+                <span class="ms-2">{{me.email}}</span>
+            </div>
+        </div>
+        <div class="col-6" *ngIf="me.phone">
+            <div class="d-flex align-items-center">
+                <i class="bi bi-telephone"></i>
+                <span class="ms-2">{{me.phone}}</span>
+            </div>
+        </div>
+        <div class="col-6 mt-2" *ngIf="me.adress">
+            <div class="d-flex align-items-center">
+                <i class="bi bi-geo-alt"></i>
+                <span class="ms-2">{{me.adress}}</span>
+            </div>
+        </div>
+        <div class="col-6 mt-2" *ngIf="me.linkedin">
+            <div class="d-flex align-items-center">
+                <i class="bi bi-linkedin"></i>
+                <span class="ms-2">{{me.linkedin}}</span>
+            </div>
+        </div>
     </div>
 </div>

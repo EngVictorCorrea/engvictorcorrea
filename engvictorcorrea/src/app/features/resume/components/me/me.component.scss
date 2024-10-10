@@ -1,5 +1,38 @@
 .section-name {
   h1 {
     text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+}
+
+.titles-container {
+  display: flex;
+  flex-wrap: wrap; /* Faz os itens quebrarem linha quando necessário */
+  gap: 30px; /* Espaçamento entre os itens */
+  margin-bottom: 5px;
+}
+
+.titles-item {
+  display: inline-block;
+  h2 {
+    margin: 0;
+    font-size: medium;
+    font-weight: bold;
+    color: var(--secondary-color);
+  }
+}
+
+
+.contact-container {
+  width: 60%;
+  padding: 0;
+  span {
+    font-size: xx-small;
+    font-weight: bold;
+  }
+  i {
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: xx-small;
   }
 }

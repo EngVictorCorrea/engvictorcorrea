@@ -1,0 +1,9 @@
+.languages-container {
+  display: flex;
+  flex-wrap: wrap; /* Faz os itens quebrarem linha quando necessário */
+  gap: 30px; /* Espaçamento entre os itens */
+}
+
+.languages-item {
+  display: inline-block;
+}

@@ -1,5 +1,13 @@
 <section class="resume-section">
     <app-title [title]="education?.title ?? ''">        
     </app-title>    
+    <div *ngIf="education">
+        <div *ngFor="let item of education.items; let last = last;">
+            <h2>{{ item.course }}</h2>
+            <h3>{{ item.name }}</h3>
+            <i class="bi bi-calendar"></i>
+            <span class="date">{{item.start_at}} - {{item.finished_at}}</span>           
+            <div class="dotted-bottom" *ngIf="!last"></div>
+        </div>
+    </div>
 </section>
-

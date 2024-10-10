@@ -8,4 +8,7 @@ import { LanguagesModel } from '../../interfaces/data-file';
 })
 export class LanguagesComponent {
   @Input() languages : LanguagesModel | null = null;
+
+
 }
+

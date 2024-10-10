@@ -3,6 +3,8 @@ export interface MeModel {
     name: string;
     email: string;
     phone: string;
+    adress: string;
+    linkedin: string;
     titles: string[];
   }
   
@@ -56,6 +58,7 @@ export interface MeModel {
   // Modelo para Languages
   export interface LanguagesModel {
     title: string;
+    levels_description: string[];
     items: LanguageItemModel[];
   }
   
