@@ -1,0 +1,9 @@
+.languages-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.languages-item {
+  display: inline-block;
+}

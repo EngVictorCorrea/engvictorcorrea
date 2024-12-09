@@ -1,0 +1,14 @@
+<section class="languages-section">
+  <app-title [title]="languages?.title ?? ''"></app-title>
+  <div *ngIf="languages" class="languages-container">
+    <div *ngFor="let item of languages.items" class="languages-item">
+      <app-language-level
+        class=""
+        [language]="item.language"
+        [level]="item.level"
+        [levelsDescription]="languages.levels_description"
+      >
+      </app-language-level>
+    </div>
+  </div>
+</section>

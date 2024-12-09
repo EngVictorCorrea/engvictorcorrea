@@ -1,0 +1,43 @@
+.language-level-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.language-text {
+  flex: 1;
+}
+
+.language-text h3 {
+  margin: 0;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.language-text p {
+  margin: 5px 0 0 0;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.dots-container {
+  display: flex;
+  gap: 5px;
+  margin-left: 15px;
+}
+
+.dot-icon {
+  font-size: medium;
+  color: #ccc;
+}
+
+.dot-icon.filled {
+  color: var(--secondary-color);
+}
+
+@media print {
+  .dot-icon {
+    font-size: medium;
+  }
+}

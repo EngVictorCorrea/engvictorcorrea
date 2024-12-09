@@ -1,0 +1,32 @@
+@import "bootstrap/scss/bootstrap-grid";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.text-fill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  line-height: 1.3;
+  word-spacing: 0.05em;
+  margin: 0;
+  padding: 0;
+}
+
+.dotted-bottom {
+  border-bottom: 2px dotted gray;
+  padding-bottom: 10px;
+}
+
+:root {
+  --primary-color: #013309;
+  --secondary-color: #77a361;
+  --secondary-darker-color: #527141;
+}

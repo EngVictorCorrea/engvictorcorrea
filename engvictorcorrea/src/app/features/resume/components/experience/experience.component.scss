@@ -1,0 +1,38 @@
+i {
+  margin-right: 5px;
+  color: var(--secondary-color);
+  font-size: medium;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.resume-section h2 {
+  margin-bottom: 5px;
+  font-size: medium;
+  color: var(--primary-color);
+}
+
+.resume-section h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: small;
+  color: var(--secondary-color);
+}
+
+.indented-item {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 20px;
+  position: relative;
+
+  &::before {
+    content: "•";
+    margin-top: 5px;
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    line-height: 1;
+  }
+}

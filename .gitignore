@@ -1,0 +1,70 @@
+# Compiled output
+dist/
+build/
+
+# Temporary files and folders
+tmp/
+temp/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Angular specific files
+.angular/
+.angular/cache/
+.angular/cache/babel-webpack/
+
+# Environment files
+environment.prod.ts
+environment.ts
+
+# Compiled TypeScript
+*.tsbuildinfo
+*.d.ts
+*.js
+*.js.map
+
+# Output of 'ng build' and 'ng test'
+coverage/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Windows specific files
+*.db
+
+# Mac specific files
+.AppleDouble
+.LSOverride
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# System files
+Desktop.ini
+engvictorcorrea/src/environments/environment.local.ts
+engvictorcorrea/src/assets/data/pt-br.json
+
